@@ -1,0 +1,3 @@
+The language that will used in this entire folder is English.
+To run a .dart file, run a command "dart run file.dart". as an alternatives, you can run a command "dart file.dart". Or, just click on the "Run" button on top of the main() function.
+To compile a .dart file, run a command "dart compile exe file.dart"
