@@ -35,11 +35,20 @@ void main() {
     print(anotherWords);
 
   // Keywords
-    // keyword final: A variable that is declared as a final will not be able to get re-assigned, but the value can be changed
+    // Keyword final: A variable that is declared as a final will not be able to get re-assigned.
     final myName =  "Nizam";
     print(myName);
     // Re-assigning the value can cause an error
     // myName = "John"; 
 
-    // Keyword const: 
+    // Keyword const: It's the same as final, but... I don't know. I don't get the differences.
+    const myAge = 12;
+    print(myAge);
+    // myAge++; Doing this will cause an error.
+
+    // Keyword late: late allows you to assign a value of a variable later and it will throw an error if you're trying to use it but you didn't assign it.
+    late String textEditor;
+    // print(textEditor); Doing this will cause an error
+    textEditor = "Visual Studio Code";
+    print(textEditor);
 }
